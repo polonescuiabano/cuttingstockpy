@@ -1,0 +1,23 @@
+# Conjunto de barras disponíveis
+set BARRAS_DISPONIVEIS := 7 8 9 10 11 12 13 15;
+
+# Conjunto de barras desejadas
+set BARRAS_DESEJADAS := 4.6 3.3;
+
+# Tamanho das barras disponíveis
+param Tamanho :=
+    7 7
+    8 8
+    9 9
+    10 10
+    11 11
+    12 12
+    13 13
+    15 15
+;
+
+# Demanda das barras desejadas
+param Demanda :=
+    4.6 2
+    3.3 2
+;
